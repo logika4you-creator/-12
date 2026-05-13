@@ -6,291 +6,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brawl Stars</title>
 
-    <style>
-
-        body{
-            margin:0;
-            font-family:Arial, sans-serif;
-            background:#f4f4f4;
-            color:#222;
-        }
-
-        /* HEADER */
-
-        header{
-            background:linear-gradient(90deg,#ff9800,#ff5722,#e91e63);
-            color:white;
-
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            flex-wrap:wrap;
-
-            padding:20px;
-        }
-
-        header h2{
-            margin:0;
-            font-size:32px;
-        }
-
-        /* MENU */
-
-        .menu-list{
-            display:flex;
-            gap:15px;
-            list-style:none;
-            padding:0;
-            margin:0;
-        }
-
-        .menu-list a{
-            text-decoration:none;
-            color:white;
-            background:rgba(255,255,255,0.2);
-            padding:10px 15px;
-            border-radius:10px;
-            transition:0.3s;
-        }
-
-        .menu-list a:hover{
-            background:white;
-            color:black;
-        }
-
-        /* HERO */
-
-        .hero{
-            display:flex;
-            justify-content:space-around;
-            align-items:center;
-            flex-wrap:wrap;
-
-            padding:50px 20px;
-
-            background:#fff3e0;
-        }
-
-        .hero-text{
-            max-width:500px;
-        }
-
-        .hero h1{
-            font-size:50px;
-            color:#ff5722;
-        }
-
-        .hero p{
-            font-size:20px;
-            line-height:1.7;
-        }
-
-        .hero button{
-            padding:14px 22px;
-            border:none;
-            border-radius:10px;
-            background:#ff5722;
-            color:white;
-            font-size:18px;
-            cursor:pointer;
-        }
-
-        .hero button:hover{
-            background:#e64a19;
-        }
-
-        .hero img{
-            width:350px;
-            border-radius:20px;
-            box-shadow:0 4px 12px rgba(0,0,0,0.3);
-        }
-
-        /* TITLES */
-
-        section h2{
-            text-align:center;
-            font-size:40px;
-            color:#ff5722;
-            margin-top:50px;
-        }
-
-        /* CARDS */
-
-        .cards{
-            display:flex;
-            justify-content:center;
-            gap:25px;
-            flex-wrap:wrap;
-
-            padding:30px;
-        }
-
-        .card{
-            width:240px;
-            background:white;
-            border-radius:15px;
-            overflow:hidden;
-
-            box-shadow:0 4px 10px rgba(0,0,0,0.2);
-
-            transition:0.3s;
-        }
-
-        .card:hover{
-            transform:translateY(-8px);
-        }
-
-        .card img{
-            width:100%;
-            height:280px;
-            object-fit:cover;
-            background:#eee;
-        }
-
-        .card h3{
-            text-align:center;
-            color:#ff5722;
-            font-size:28px;
-        }
-
-        /* PLAYERS */
-
-        #players{
-            background:#fff8f0;
-            padding:30px;
-        }
-
-        #players ul{
-            max-width:300px;
-            margin:auto;
-            font-size:22px;
-            line-height:2;
-        }
-
-        /* FOOTER */
-
-        footer{
-            background:#222;
-            color:white;
-            text-align:center;
-            padding:30px;
-            margin-top:40px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+    <!-- HEADER -->
 
-    <h2>Brawl Stars</h2>
+    <header>
 
-    <nav>
-        <ul class="menu-list">
-            <li><a href="#brawlers">Бравлери</a></li>
-            <li><a href="#players">Гравці</a></li>
-            <li><a href="#maps">Карти</a></li>
-        </ul>
-    </nav>
+        <h2>Brawl Stars</h2>
 
-</header>
+        <nav>
+            <ul class="menu-list">
+                <li><a href="#brawlers">Бравлери</a></li>
+                <li><a href="#players">Гравці</a></li>
+                <li><a href="#maps">Карти</a></li>
+            </ul>
+        </nav>
 
-<main>
+    </header>
 
-    <!-- HERO -->
+    <main>
 
-    <section class="hero">
+        <!-- HERO -->
 
-        <div class="hero-text">
+        <section class="hero">
 
-            <h1>Збирай кубки!</h1>
+            <div class="hero-text">
 
-            <p>
-                Brawl Stars — популярна гра від Supercell.
-                Грай за різних бравлерів,
-                відкривай нових персонажів
-                та перемагай у боях!
-            </p>
+                <h1>Збирай кубки!</h1>
 
-            <button>Грати</button>
+                <p>
+                    Brawl Stars — популярна гра від Supercell.
+                    Грай за різних бравлерів,
+                    відкривай нових персонажів
+                    та перемагай у боях!
+                </p>
 
-        </div>
-
-        <!-- ГАРАНТОВАНО ПРАЦЮЮЧА КАРТИНКА -->
-        <img src="https://static.wikia.nocookie.net/brawlstars/images/3/35/Brawl_Stars.jpg" alt="Brawl Stars">
-
-    </section>
-
-    <!-- BRAWLERS -->
-
-    <section id="brawlers">
-
-        <h2>Бравлери</h2>
-
-        <div class="cards">
-
-            <!-- SHELLY -->
-
-            <div class="card">
-
-                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/" alt="Шеллі">
-
-                <h3>Шеллі</h3>
+                <button>Грати</button>
 
             </div>
 
-            <!-- LEON -->
+            <img src="https://static.wikia.nocookie.net/brawlstars/images/3/35/Brawl_Stars.jpg"
+                alt="Brawl Stars">
 
-            <div class="card">
+        </section>
 
-                <img src="https://static.wikia.nocookie.net/brawlstars/images/9/9d/Leon_graffiti.png/revision/latest/scale-to-width-down/250?cb=20250920074322&path-prefix=ru" alt="Леон">
+        <!-- BRAWLERS -->
 
-                <h3>Леон</h3>
+        <section id="brawlers">
+
+            <h2>Бравлери</h2>
+
+            <div class="cards">
+
+                <!-- SHELLY -->
+
+                <div class="card">
+
+                    <img src="https://static.wikia.nocookie.net/brawlstars/images/8/88/Shelly_Skin-Default.png"
+                        alt="Шеллі">
+
+                    <h3>Шеллі</h3>
+
+                </div>
+
+                <!-- LEON -->
+
+                <div class="card">
+
+                    <img src="https://static.wikia.nocookie.net/brawlstars/images/f/f7/Leon_Skin-Default.png"
+                        alt="Леон">
+
+                    <h3>Леон</h3>
+
+                </div>
+
+                <!-- SPIKE -->
+
+                <div class="card">
+
+                    <img src="https://static.wikia.nocookie.net/brawlstars/images/2/23/Spike_Skin-Default.png"
+                        alt="Спайк">
+
+                    <h3>Спайк</h3>
+
+                </div>
 
             </div>
 
-            <!-- SPIKE -->
+        </section>
 
-            <div class="card">
+        <!-- PLAYERS -->
 
-                <img src="https://www.gamehelper.top/wp-content/uploads/2020/06/spike-brawl-stars-guide.jpg" alt="Спайк">
+        <section id="players">
 
-                <h3>Спайк</h3>
+            <h2>Гравці</h2>
 
-            </div>
+            <ul>
+                <li>Elox</li>
+                <li>prostislav</li>
+                <li>vital shark</li>
+            </ul>
 
-        </div>
+        </section>
 
-    </section>
+    </main>
 
-    <!-- PLAYERS -->
+    <!-- FOOTER -->
 
-    <section id="players">
+    <footer id="maps">
 
-        <h2>Гравці</h2>
+        <h2>Карти</h2>
 
-        <ul>
-            <li>Elox</li>
-            <li>prostislav</li>
-            <li>vital shark</li>
-        </ul>
+        <p>
+            Showdown, Gem Grab, Brawl Ball
+        </p>
 
-    </section>
-
-</main>
-
-<!-- FOOTER -->
-
-<footer id="maps">
-
-    <h2>Карти</h2>
-
-    <p>
-        Showdown, Gem Grab, Brawl Ball
-    </p>
-
-</footer>
+    </footer>
 
 </body>
+
 </html>
